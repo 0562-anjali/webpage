@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background:linear-gradient(45deg,lightgreen,lightpink,lightblue);
+    font-family:"Comic Sans Ms",sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: Castellar,sans-serif;
+    font-size: 30px;
+}
+h2 {
+    background: rgb(2,0,36);  
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(103,121,9,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 80%;
+    width:800px;
+    margin:auto;
+    box-shadow:0 0 10px black;
+  }
+  p {
+    font-size: 50px;
+  }
+
+/*start the display screen*/
+.container{
+    max-width: 520px;
+    margin: auto;
+}
+
+@media screen and (max-width: 480px;){
+.container{
+         max-width: 420px;
+        }
+    
+}
+
+@media screen and (max-width: 580px;){
+    .container{
+             max-width: 720px;
+            }
+        
+    }
